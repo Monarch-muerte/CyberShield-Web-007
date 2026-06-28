@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Us - CyberSecurity</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Full screen smooth section */
+    body, html {
+      height: 100%;
+      margin: 0;
+      scroll-behavior: smooth;
+      background-color: #0d1117;
+      color: #f0f6fc;
+      font-family: 'Segoe UI', Arial, sans-serif;
+    }
+
+    .about-section {
+      min-height: 100vh; /* full screen height */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 60px 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #161b22, #0d1117);
+    }
+
+    .about-section h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+      color: #58a6ff;
+      animation: fadeInDown 1s ease;
+    }
+
+    .about-section p {
+      max-width: 800px;
+      line-height: 1.8;
+      margin-bottom: 20px;
+      animation: fadeInUp 1.2s ease;
+    }
+
+    .highlight-card {
+      background-color: #161b22;
+      border: 1px solid #30363d;
+      border-radius: 10px;
+      padding: 25px;
+      margin: 15px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .highlight-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 8px 20px rgba(88,166,255,0.3);
+    }
+
+    .special-link {
+      display: inline-block;
+      font-size: 2rem;
+      font-weight: bold;
+      margin-top: 40px;
+      color: #1f6feb;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .special-link:hover {
+      color: #388bfd;
+      text-decoration: underline;
+    }
+
+    /* Smooth fade animations */
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <!-- Brand -->
+    <a class="navbar-brand ms-2" href="index.html">CyberShield</a>
+
+    <!-- Mobile toggler (hamburger icon) -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Collapsible menu -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Full Screen About Us -->
+  <section class="about-section">
+    <h1>About Us</h1>
+    <p>
+      At <strong>CyberShield</strong>, we are dedicated to building a safer digital world.  
+      We believe privacy is not just a feature — it’s a fundamental right.  
+      Our mission is to empower individuals and organizations with tools that make encryption simple, accessible, and reliable.
+    </p>
+    <p>
+      From our <em>Email Breach Checker</em> to our <em>Text Encryption Utility</em>, every solution we create is designed to protect your identity and strengthen your digital confidence.  
+      Whether you’re a student exploring cybersecurity, a professional safeguarding sensitive data, or a tech enthusiast pushing boundaries, CyberShield is your trusted companion in the fight against cyber threats.
+    </p>
+
+    <!-- Highlights -->
+    <div class="row justify-content-center mt-4">
+      <div class="col-md-3">
+  <div class="highlight-card">
+    <h4>🔒 Security First</h4>
+    <p>
+      We implement industry‑standard encryption and advanced security protocols to keep your data safe.  
+      Our commitment to privacy ensures that your information remains protected from unauthorized access, every single time.
+    </p>
+  </div>
+</div>
+
+<div class="col-md-3">
+  <div class="highlight-card">
+    <h4>⚡ Easy to Use</h4>
+    <p>
+      Our tools are designed with simplicity and clarity in mind, requiring no technical expertise.  
+      Whether you’re a beginner or a professional, CyberShield makes cybersecurity effortless and accessible for everyone.
+    </p>
+  </div>
+</div>
+
+<div class="col-md-3">
+  <div class="highlight-card">
+    <h4>🌐 Community Driven</h4>
+    <p>
+      We evolve through collaboration and feedback from our global community.  
+      Every update, feature, and improvement reflects the voices of users who share our vision for a safer digital world.
+    </p>
+  </div>
+</div>
+
+<div class="col-md-3">
+  <div class="highlight-card">
+    <h4>💡 Innovation</h4>
+    <p>
+      We constantly explore new ideas, technologies, and solutions to stay ahead in cybersecurity.  
+      Our innovation culture drives us to challenge limits and redefine what’s possible in digital protection.
+    </p>
+  </div>
+</div>
+
+<div class="col-md-3">
+  <div class="highlight-card">
+    <h4>🤝 Trust & Transparency</h4>
+    <p>
+      We build trust by being transparent in our practices, policies, and communication.  
+      You deserve to know how your data is handled — and we make sure you always do.
+    </p>
+  </div>
+</div>
+
+<div class="col-md-3">
+  <div class="highlight-card">
+    <h4>🚀 Future Ready</h4>
+    <p>
+      Our vision is to prepare individuals and organizations for tomorrow’s digital challenges.  
+      With continuous learning and adaptation, we ensure you’re equipped for the evolving landscape of cybersecurity.
+    </p>
+  </div>
+</div>
+
+    <!-- Call to Action -->
+    <a href="https://cybershield.co.in" class="special-link">Read More →</a>
+  </section>
+  <!-- Footer -->
+<footer class="bg-dark text-white text-center p-3">
+  <p>© 2026 CyberShield Inc.</p>
+</footer>
+<!-- Bootstrap JS bundle (needed for mobile menu toggle) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+  // Reveal highlight cards smoothly on scroll
+  document.addEventListener("scroll", () => {
+    document.querySelectorAll(".highlight-card").forEach(el => {
+      const rect = el.getBoundingClientRect();
+      if (rect.top < window.innerHeight - 50) {
+        el.classList.add("visible");
+      }
+    });
+  });
+
+  // Trigger animations immediately on load for visible elements
+  document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll(".highlight-card").forEach(el => {
+      const rect = el.getBoundingClientRect();
+      if (rect.top < window.innerHeight - 50) {
+        el.classList.add("visible");
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
